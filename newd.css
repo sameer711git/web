@@ -1,0 +1,167 @@
+@font-face {
+    font-family: vanguard;
+    src: url(./Fontspring-DEMO-vanguardcf-bold.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height:100%;
+    width: 100%;
+}
+#main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+#main img{
+    height: 900px;
+    position: absolute;
+     left: 47.5%;
+     top: 8%;
+    bottom: 0%; 
+    transform: translate(-50%,0%);
+}
+#nav{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    /* background-color: brown; */
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+#nav_part1{
+    /* background-color: blue; */
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav i{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: 900;
+}
+#nav_part1 h1{
+    font-family: vanguard;
+    font-size: 50px;
+    font-weight: 100;
+}
+#nav_part1 h5{
+    font-family:gilroy;
+    font-size: 18px;
+    font-weight: 500;
+}
+#left{
+    height: 100%;
+    width: 48%;
+    background-color: rgb(169, 234, 249);
+    line-height: px;
+    padding: 250px 150px;
+}
+#left h4{
+    font-weight: 600;
+    font-size: 20px;
+    position: absolute     ;
+    /* top: 30%; */
+    /* left: 10%; */
+
+}
+#left h1{
+    padding-top: 10px;
+    position: absolute;
+    font-family: vanguard;
+    /* top: 32%; */
+    /* left: 10%; */
+    font-size: 100px;
+    line-height: 100px;
+    letter-spacing: 8px;
+}
+#right{
+    height: 100%;
+    width: 52%;
+    background-color: rgb(58, 211, 219);
+}
+#right-elem{
+    display: flex;
+    position: absolute;
+    height: 280px;
+    width: 380px;
+    background-color: #fff;
+    right: 0%;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+#elem1{
+    height: 100%;
+    width: 85%;
+    background-image: url(https://images.unsplash.com/photo-1611601679655-7c8bc197f0c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bW9kZWwlMjBnaXJsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-size:cover;
+}
+#elem2{
+    background: #000;
+    height: 100%;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#elem2 i{
+    padding: 45px;
+    /* background-color: cadetblue; */
+    color: #fff;
+    display: block;
+    height: 50%;
+    font-size: 30px;
+    align-items: center;
+    justify-content: space-around;
+}
+#content{
+    position: absolute;
+    right: 7%;
+    bottom: 9%;
+    /* background-color: aqua; */
+}
+#content h4{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+
+}
+#content h5{
+    /* position: absolute; */
+    color: #fff;
+    font-size: 20px;
+    align-items:center;
+    justify-content: center;
+    line-height: 40px;
+
+}
+#right #line{
+    position: absolute;
+    height: 100%;
+    left: 60%;
+    width: 20px;
+    color: #fff;
+}
+#bottom{
+    position: absolute;
+    background-color: #fff;
+    height: 50px;
+    width: 55%;
+    display: flex;
+    bottom: 0%;
+    left: 0%;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+}

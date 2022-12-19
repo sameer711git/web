@@ -1,0 +1,101 @@
+@font-face {
+    font-family: vanguard;
+    src: url(./Fontspring-DEMO-vanguardcf-bold.otf);
+}*{
+    margin: 0;
+    padding: 0;
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+}
+#nav{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(51, 48, 48);
+    
+}
+#nav_prt1{
+    color: rgb(205, 240, 236);
+    margin-left: 15%;
+    height: 30px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#nav_prt1 h3{
+    margin-top:20px ;
+    color: aliceblue;
+    font-weight: 100   ;
+}
+#nav_prt1 i{
+    margin-top:20px ;
+    font-size: 20px;
+    font-weight: 100   ;
+}
+#box1{
+    width: 100%;
+    height: 30%;
+    /* background-color: red; */
+}
+#content{
+    /* background-color: yellow; */
+    position: absolute;
+    left: 40%;
+    transform: translate(0,20%);   
+}
+#content h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+}
+#content h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 500;
+}
+#content h3{
+    /* padding: 0px 50px; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 98, 255);
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+#box2{
+    height: 55%;
+    width: 100%;
+    /* overflow: hidden; */
+    /* background-color: blue; */
+}
+#box2 img{
+    position: absolute;
+    height: 400px;
+    left: 25%;
+}
+#bottom{
+    display: flex;
+        height: 9%;
+        width: 100%;
+}
+#bottom-left{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(2, 46, 22);
+}
+#bottom-right{
+    height: 100%;
+    background-color: red;
+
+    width: 50%;
+}
